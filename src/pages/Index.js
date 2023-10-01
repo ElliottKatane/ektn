@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div>
       <Navbar />
-      <div className="nom">Elliott Katane</div>
+      <div className="nom">Elliott Katane 17h00</div>
       <button className="btn">Download resume</button>
       <button className="btn">Contact me</button>
     </div>

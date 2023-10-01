@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
-
 import Feed from "./Feed";
 
 const InstaFeeds = ({ token, ...props }) => {
@@ -15,6 +14,8 @@ const InstaFeeds = ({ token, ...props }) => {
 
     async function fetchInstagramPost() {
       try {
+        console.log("props.limit :", props.limit);
+        console.log("props.token :", props.token);
         const response = await axios.get(
           `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=${tokenProp.current}`
         );
