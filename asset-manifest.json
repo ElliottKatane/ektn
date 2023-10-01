@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ektn/static/css/main.98884680.css",
-    "main.js": "/ektn/static/js/main.c971133a.js",
+    "main.js": "/ektn/static/js/main.ce3bdfb1.js",
     "static/media/logoblack.png": "/ektn/static/media/logoblack.dc3e222a0ae3d6328826.png",
     "index.html": "/ektn/index.html",
     "main.98884680.css.map": "/ektn/static/css/main.98884680.css.map",
-    "main.c971133a.js.map": "/ektn/static/js/main.c971133a.js.map"
+    "main.ce3bdfb1.js.map": "/ektn/static/js/main.ce3bdfb1.js.map"
   },
   "entrypoints": [
     "static/css/main.98884680.css",
-    "static/js/main.c971133a.js"
+    "static/js/main.ce3bdfb1.js"
   ]
 }
