@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Index from "./pages/Index";
+import About from "./pages/About";
+import Works from "./pages/Works";
+import Insta from "./components/InstaFeeds";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/about" exact={true} element={<About />} />
+        <Route path="/works" exact={true} element={<Works />} />
+        <Route path="/insta" exact={true} element={<Insta />} />
+        {/* shift + alt + arrDown = Copier la ligne vers le bas*/}
+        {/* Route path="*": fonctionne si jamais l'url ne correspond à rien de déclaré*/}
+        <Route path="*" exact={true} element={<Index />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

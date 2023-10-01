@@ -1,0 +1,29 @@
+.container {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 10px; /* espace entre chaque enfant dans le composant (h1, content, etc) */
+  margin: 10px; /* espace entre chaque composant */
+  width: 50%;
+  height: 12vh; /* doit etre de la meme unité que .active, sinon ça marche pas (c'était 100% au départ) */
+  overflow: hidden;
+  transition: all 0.6s ease; /* Propriété à animer et durée de l'animation */
+}
+.container h1 {
+  text-align: center;
+}
+
+.workcard-active {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px; /* espace entre chaque enfant dans le composant (h1, content, etc) */
+  margin: 10px; /* espace entre chaque composant */
+  border-radius: 7px;
+  background-color: #282c34;
+  color: #61dafb;
+  width: 50%;
+  height: 35vh;
+  transition: all 0.6s ease; /* Propriété à animer et durée de l'animation */
+}
+.workcard-active h1 {
+  text-align: center;
+}
