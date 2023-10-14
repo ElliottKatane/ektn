@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/ektn/static/css/main.686143ed.css",
-    "main.js": "/ektn/static/js/main.f12a6aa5.js",
+    "main.css": "/ektn/static/css/main.90a57802.css",
+    "main.js": "/ektn/static/js/main.f05826b6.js",
+    "static/media/PP_EK.jpg": "/ektn/static/media/PP_EK.555f4e249f46aea2fa50.jpg",
     "static/media/logoblack.png": "/ektn/static/media/logoblack.3333bc393a60574c5dd4.png",
     "static/media/Reactlogo.jpg": "/ektn/static/media/Reactlogo.3d15cd9330394422db4b.jpg",
     "static/media/JSlogo.jpg": "/ektn/static/media/JSlogo.db88570310771a64edc1.jpg",
     "index.html": "/ektn/index.html",
-    "main.686143ed.css.map": "/ektn/static/css/main.686143ed.css.map",
-    "main.f12a6aa5.js.map": "/ektn/static/js/main.f12a6aa5.js.map"
+    "main.90a57802.css.map": "/ektn/static/css/main.90a57802.css.map",
+    "main.f05826b6.js.map": "/ektn/static/js/main.f05826b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.686143ed.css",
-    "static/js/main.f12a6aa5.js"
+    "static/css/main.90a57802.css",
+    "static/js/main.f05826b6.js"
   ]
 }
